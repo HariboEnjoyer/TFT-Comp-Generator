@@ -49,7 +49,7 @@ The project consists of three Python files and a standalone application:
 To use this program, run the `Set 9 Comp Generator.exe` file. You will be prompted to enter various parameters:
 
 - **Team size**: Enter a number from 2 to 59.
-- **Bonus Traits**: Enter your trait bonuses, separated by commas. For example, 'Sorcerer: 1' for Sorcerer+1. If you have multiple bonuses, you can enter 'Noxus: 2, Demacia: 1' for Noxus +2 and Demacia +1.
+- **Bonus Traits**: Enter your trait bonuses, separated by commas. For example, 'Sorcerer: 1' for Sorcerer+1. If you have multiple bonuses, you can enter 'Noxus: 2, Demacia: 1' for Noxus +2 and Demacia +1. (All bonuses are treated like heart augments. This means that if you set bonus as Demacia: 2 and team size as 7, you can still generate a composition with 9 Demacia)
 - **Composition Trait Requirements**: Enter your trait requirements, separated by commas. For example, 'Demacia: 7' for a team with at least 7 Demacia units. 'Yordle: 3, Gunner: 2' for a team with at least 3 Yordles and 2 Gunners.
 - **Maximum Unit Cost**: Enter a number from 1 to 5.
 - **Included Units**: Enter the units you want to include in your team, separated by commas. For example, 'Senna, Malzahar'.
