@@ -59,6 +59,10 @@ Unique traits do not work properly with **Bonus Traits** or **Composition Trait 
 
 After entering the parameters, the program will generate a team composition and display it along with the points calculated for the team.
 
+## Known bugs
+
+If you enable **Built Different** and generate a composition with 55 or more units, the program will crash.
+
 ## Requirements
 
 This program requires Python 3.6 or later to run the Python scripts. The standalone application can be run on any Windows machine.
